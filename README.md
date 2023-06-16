@@ -1,2 +1,2 @@
 # ProEx-App
-Kotlin tabanlı ProEx (Professional Exercise) bel fıtığı egzersizi mobil uygulaması
+Kotlin Tabanlı ProEx (Professional Exercise) Bel Fıtığı Egzersizi Mobil Uygulaması
