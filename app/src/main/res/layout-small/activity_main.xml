@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginpage_background_color_design"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/loginPageImage"
+        android:layout_width="136dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="137dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/splash_screen_image" />
+
+    <EditText
+        android:id="@+id/loginPageEditTextEmailUserName"
+        android:layout_width="336dp"
+        android:layout_height="55dp"
+
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+
+        android:hint="Email/Kullanıcı Adı"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textColor="#60A4CB"
+        android:textColorHint="#60A4CB"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/loginPageEditTextPassword"
+        android:layout_width="336dp"
+        android:layout_height="55dp"
+
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textColor="#60A4CB"
+        android:textColorHint="#60A4CB"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginPageEditTextEmailUserName" />
+
+    <CheckBox
+        android:id="@+id/loginPageCheckBoxRememberMe"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:buttonTint="@color/white"
+        android:checked="false"
+        android:text="Beni Hatırla"
+        android:visibility="invisible"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginPageEditTextPassword" />
+
+    <TextView
+        android:id="@+id/loginPageTextViewRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="176dp"
+        android:text="Kayıt Ol"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginPageEditTextPassword" />
+
+    <Button
+        android:id="@+id/loginPageButtonLogIn"
+        android:layout_width="338dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="@color/white"
+        android:text="Giriş Yap"
+        android:textColor="#215776"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginPageTextViewRegister" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

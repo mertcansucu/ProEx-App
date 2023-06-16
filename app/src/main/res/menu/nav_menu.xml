@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mainFragment"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Ev" />
+        <item
+            android:id="@+id/allExercisesFragment"
+            android:icon="@drawable/all_exercises"
+            android:title="Tüm Alıştırmalar" />
+        <item
+            android:id="@+id/targetsFragment"
+            android:icon="@drawable/ic_baseline_open_in_new_24"
+            android:title="YouTube 'u Aç" />
+        <item
+            android:id="@+id/mainActivity"
+            android:icon="@drawable/baseline_logout_24"
+            android:title="Oturumu Kapat" />
+    </group>
+
+</menu>

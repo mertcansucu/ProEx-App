@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Bitirmeprojesi_mertcansucu_alhasatahankizilkaya" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#DA0303</item>
+        <item name="colorSecondaryVariant">@color/purple_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+
+        <item name="android:textColor">#FF0000</item> <!-- Kırmızı renk -->
+    </style>
+    <style name="SelectedDateStyle">
+        <item name="android:textColor">#FFFFFF</item> <!-- Kırmızı renk -->
+    </style>
+    <style name="SelectedDateStyle1">
+        <item name="android:textColor">#FF5722</item> <!-- Kırmızı renk -->
+    </style>
+    <style name="OtherDateStyle">
+        <item name="android:textColor">#000000</item> <!-- Yazı rengi -->
+        <item name="android:background">#FFFFFF</item> <!-- Arkaplan rengi -->
+    </style>
+    <style name="SelectedDateStyle2">
+        <item name="android:textColor">#FFFFFF</item> <!-- Yazı rengi -->
+        <item name="android:background">#FF0000</item> <!-- Arkaplan rengi -->
+    </style>
+
+    <style name="DefaultDateStyle">
+        <item name="android:textColor">#000000</item> <!-- Yazı rengi -->
+        <item name="android:background">#FFFFFF</item> <!-- Arkaplan rengi -->
+    </style>
+
+</resources>

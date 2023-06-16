@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/proje/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.3675" />
+        <entry key="..\:/proje/app/src/main/res/drawable-v24/navigation_drawer_menu_icon.xml" value="0.3675" />
+        <entry key="..\:/proje/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3675" />
+        <entry key="..\:/proje/app/src/main/res/font/akaya_telivigala.xml" value="0.1" />
+        <entry key="..\:/proje/app/src/main/res/layout-large/activity_exercise.xml" value="0.22" />
+        <entry key="..\:/proje/app/src/main/res/layout-large/activity_home_page.xml" value="0.88" />
+        <entry key="..\:/proje/app/src/main/res/layout-large/activity_main.xml" value="0.88" />
+        <entry key="..\:/proje/app/src/main/res/layout-large/activity_register_page.xml" value="0.88" />
+        <entry key="..\:/proje/app/src/main/res/layout-large/fragment_all_exercises.xml" value="0.88" />
+        <entry key="..\:/proje/app/src/main/res/layout-large/fragment_app_share.xml" value="0.88" />
+        <entry key="..\:/proje/app/src/main/res/layout-large/fragment_main.xml" value="0.88" />
+        <entry key="..\:/proje/app/src/main/res/layout-large/fragment_notifications.xml" value="0.88" />
+        <entry key="..\:/proje/app/src/main/res/layout-large/fragment_settings.xml" value="0.88" />
+        <entry key="..\:/proje/app/src/main/res/layout-large/fragment_success.xml" value="0.88" />
+        <entry key="..\:/proje/app/src/main/res/layout-large/fragment_targets.xml" value="0.88" />
+        <entry key="..\:/proje/app/src/main/res/layout-large/navigation_title.xml" value="0.88" />
+        <entry key="..\:/proje/app/src/main/res/layout-normal/activity_exercise.xml" value="0.25" />
+        <entry key="..\:/proje/app/src/main/res/layout-normal/activity_home_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/proje/app/src/main/res/layout-normal/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/proje/app/src/main/res/layout-normal/activity_register_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/proje/app/src/main/res/layout-normal/fragment_all_exercises.xml" value="0.36666666666666664" />
+        <entry key="..\:/proje/app/src/main/res/layout-normal/fragment_app_share.xml" value="0.36666666666666664" />
+        <entry key="..\:/proje/app/src/main/res/layout-normal/fragment_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/proje/app/src/main/res/layout-normal/fragment_notifications.xml" value="0.36666666666666664" />
+        <entry key="..\:/proje/app/src/main/res/layout-normal/fragment_settings.xml" value="0.36666666666666664" />
+        <entry key="..\:/proje/app/src/main/res/layout-normal/fragment_success.xml" value="0.36666666666666664" />
+        <entry key="..\:/proje/app/src/main/res/layout-normal/fragment_targets.xml" value="0.36666666666666664" />
+        <entry key="..\:/proje/app/src/main/res/layout-normal/navigation_title.xml" value="0.36666666666666664" />
+        <entry key="..\:/proje/app/src/main/res/layout-small/activity_exercise.xml" value="0.25" />
+        <entry key="..\:/proje/app/src/main/res/layout-small/fragment_all_exercises.xml" value="0.9592050209205021" />
+        <entry key="..\:/proje/app/src/main/res/layout-xlarge/activity_exercise.xml" value="0.22" />
+        <entry key="..\:/proje/app/src/main/res/layout-xlarge/activity_home_page.xml" value="0.5" />
+        <entry key="..\:/proje/app/src/main/res/layout-xlarge/activity_main.xml" value="0.2" />
+        <entry key="..\:/proje/app/src/main/res/layout-xlarge/activity_register_page.xml" value="0.22" />
+        <entry key="..\:/proje/app/src/main/res/layout-xlarge/fragment_all_exercises.xml" value="0.275" />
+        <entry key="..\:/proje/app/src/main/res/layout-xlarge/fragment_app_share.xml" value="0.275" />
+        <entry key="..\:/proje/app/src/main/res/layout-xlarge/fragment_main.xml" value="0.25" />
+        <entry key="..\:/proje/app/src/main/res/layout-xlarge/fragment_notifications.xml" value="0.275" />
+        <entry key="..\:/proje/app/src/main/res/layout-xlarge/fragment_settings.xml" value="0.275" />
+        <entry key="..\:/proje/app/src/main/res/layout-xlarge/fragment_success.xml" value="0.275" />
+        <entry key="..\:/proje/app/src/main/res/layout-xlarge/fragment_targets.xml" value="0.275" />
+        <entry key="..\:/proje/app/src/main/res/layout-xlarge/navigation_title.xml" value="0.275" />
+        <entry key="..\:/proje/app/src/main/res/layout/activity_exercise.xml" value="0.23754789272030652" />
+        <entry key="..\:/proje/app/src/main/res/layout/activity_home_page.xml" value="0.1" />
+        <entry key="..\:/proje/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/proje/app/src/main/res/layout/activity_register_page.xml" value="0.25" />
+        <entry key="..\:/proje/app/src/main/res/layout/fragment_all_exercises.xml" value="0.36666666666666664" />
+        <entry key="..\:/proje/app/src/main/res/layout/fragment_app_share.xml" value="0.36666666666666664" />
+        <entry key="..\:/proje/app/src/main/res/layout/fragment_first_exercise_fragment.xml" value="0.34692028985507245" />
+        <entry key="..\:/proje/app/src/main/res/layout/fragment_home.xml" value="0.15" />
+        <entry key="..\:/proje/app/src/main/res/layout/fragment_main.xml" value="0.33" />
+        <entry key="..\:/proje/app/src/main/res/layout/fragment_notifications.xml" value="0.36666666666666664" />
+        <entry key="..\:/proje/app/src/main/res/layout/fragment_settings.xml" value="0.36666666666666664" />
+        <entry key="..\:/proje/app/src/main/res/layout/fragment_success.xml" value="0.36666666666666664" />
+        <entry key="..\:/proje/app/src/main/res/layout/fragment_targets.xml" value="0.1" />
+        <entry key="..\:/proje/app/src/main/res/layout/navigation_title.xml" value="0.33" />
+        <entry key="..\:/proje/app/src/main/res/menu/nav_menu.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

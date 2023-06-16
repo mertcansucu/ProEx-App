@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.mertcansucu.bitirmeprojesi_mertcansucu_alhasatahankizilkaya.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/allExercisesFragment"
+        android:name="com.mertcansucu.bitirmeprojesi_mertcansucu_alhasatahankizilkaya.AllExercisesFragment"
+        android:label="fragment_all_exercises"
+        tools:layout="@layout/fragment_all_exercises" />
+    <fragment
+        android:id="@+id/successFragment"
+        android:name="com.mertcansucu.bitirmeprojesi_mertcansucu_alhasatahankizilkaya.SuccessFragment"
+        android:label="fragment_success"
+        tools:layout="@layout/fragment_success" />
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.mertcansucu.bitirmeprojesi_mertcansucu_alhasatahankizilkaya.NotificationsFragment"
+        android:label="fragment_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/targetsFragment"
+        android:name="com.mertcansucu.bitirmeprojesi_mertcansucu_alhasatahankizilkaya.TargetsFragment"
+        android:label="fragment_targets"
+        tools:layout="@layout/fragment_targets" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.mertcansucu.bitirmeprojesi_mertcansucu_alhasatahankizilkaya.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/appShareFragment"
+        android:name="com.mertcansucu.bitirmeprojesi_mertcansucu_alhasatahankizilkaya.AppShareFragment"
+        android:label="fragment_app_share"
+        tools:layout="@layout/fragment_app_share" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.mertcansucu.bitirmeprojesi_mertcansucu_alhasatahankizilkaya.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>

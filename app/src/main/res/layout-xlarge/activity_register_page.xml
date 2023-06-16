@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registerpage_background_color_design"
+    tools:context=".register_page">
+
+    <ImageView
+        android:id="@+id/registerPageImage"
+        android:layout_width="250dp"
+        android:layout_height="234dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="146dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/splash_screen_image" />
+
+    <EditText
+        android:id="@+id/registerPageEditTextNameSurname"
+        android:layout_width="802dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="508dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:textSize="28sp"
+        android:hint="Ad Soyad Giriniz"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textColor="#60A4CB"
+        android:textColorHint="#60A4CB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/registerPageEditTextUserName"
+        android:layout_width="802dp"
+        android:layout_height="122dp"
+        android:textSize="28sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Kullanıcı Adı Giriniz"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textColor="#60A4CB"
+        android:textColorHint="#60A4CB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerPageEditTextNameSurname" />
+
+    <EditText
+        android:id="@+id/registerPageEditTextEmail"
+        android:layout_width="802dp"
+        android:layout_height="122dp"
+        android:textSize="28sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Email/E-posta Giriniz"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textColor="#60A4CB"
+        android:textColorHint="#60A4CB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerPageEditTextUserName" />
+
+    <EditText
+        android:id="@+id/registerPageEditTextPassword"
+        android:layout_width="802dp"
+        android:layout_height="122dp"
+        android:textSize="28sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Şifre Giriniz"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textColor="#60A4CB"
+        android:textColorHint="#60A4CB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerPageEditTextEmail" />
+
+    <Button
+        android:id="@+id/registerPageButtonRegister"
+        android:layout_width="802dp"
+        android:layout_height="122dp"
+        android:textSize="40sp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="152dp"
+        android:backgroundTint="@color/white"
+        android:text="Kayıt Ol"
+        android:textColor="#215776"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/registerPageEditTextConfirmPassword"
+        android:layout_width="802dp"
+        android:layout_height="122dp"
+        android:textSize="28sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Şifrenizi Onaylayınız"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textColor="#60A4CB"
+        android:textColorHint="#60A4CB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerPageEditTextPassword" />
+
+    <RadioGroup
+        android:id="@+id/registerPageRadioGroup"
+        android:layout_width="450dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="100dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerPageEditTextConfirmPassword">
+
+        <RadioButton
+            android:id="@+id/registerPageRadioButtonMan"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:buttonTint="@color/white"
+            android:text="Erkek"
+            android:textSize="25sp"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/registerPageRadioButtonWoman"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:text="Kadın"
+            android:textSize="25sp"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/registerPageRadioButtonOther"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:buttonTint="@color/white"
+            android:text="Diğer"
+            android:textSize="25sp"
+            android:textColor="@color/white" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
